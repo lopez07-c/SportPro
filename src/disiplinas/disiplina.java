@@ -8,8 +8,6 @@ package disiplinas;
  *
  * @author UTN
  */
-public class deporte {
+public class disiplina {
     
-    
-    fútbol, baloncesto y voleibol
 }
