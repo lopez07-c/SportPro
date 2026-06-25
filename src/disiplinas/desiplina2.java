@@ -8,7 +8,7 @@ package disiplinas;
  *
  * @author UTN
  */
-   public enum desiplina {
+   public enum desiplina2 {
     FUTBOL("Fútbol"),
     BALONCESTO("Baloncesto"),
     VOLEIBOL("Voleibol"),
@@ -17,7 +17,7 @@ package disiplinas;
 
     private final String nombre;
 
-    desiplina(String nombre) {
+    desiplina2(String nombre) {
         this.nombre = nombre;
     }
 
