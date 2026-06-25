@@ -26,5 +26,12 @@ public class Entrenador extends persona{
         public void setExperiencia(int experiencia){
             this.experiencia=experiencia;
         }
+
+    @Override
+    public String toString() {
+        return "Entrenador{" + super.toString()+"experiencia=" + experiencia + ", especialidad=" + especialidad + '}';
+    }
+        
+        
 }
 
