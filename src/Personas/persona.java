@@ -33,14 +33,24 @@ public class persona {
         return fechaNaci;
     }
 
-    public String getTelefono() {
+    public int getTelefono() {
         return telefono;
         
     }
 
-    public void setTelefono(String telefono) {
+    public void setTelefono(int telefono) {
         this.telefono = telefono;
     }
+
+    public persona(String nombre, int identificación, String nacionalidad, LocalDate fechaNaci, int telefono) {
+        this.nombre = nombre;
+        this.identificación = identificación;
+        this.nacionalidad = nacionalidad;
+        this.fechaNaci = fechaNaci;
+        this.telefono = telefono;
+    }
+    
+    
     
     
     public LocalDate getFecha(){
