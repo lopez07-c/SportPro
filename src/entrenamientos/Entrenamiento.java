@@ -17,6 +17,7 @@ public class Entrenamiento {
     private LocalTime horaInicio;
     private int duracion;
     private disiplina disiplina;
+    private Asistencia =new array(asistencias[50]
 
     
     public Entrenamiento(LocalDate fecha, LocalTime horaInicio, int duracion, disiplina disiplina) {
